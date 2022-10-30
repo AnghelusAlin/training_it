@@ -1,0 +1,43 @@
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    background-color: #AAAAAA;
+    align-items:center; 
+    margin: 0;
+    padding: 5px;
+    border:0;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.hero{
+    width: 100vw;
+    height:auto;
+    align:auto;
+    margin:auto;
+    justify-content:center;
+    text-align:center;
+    background-color: rgb(200, 200, 200);
+    overflow-x:hidden;
+}
+
+.cards-container{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.card{
+    text-align:center;
+    margin:auto;
+}
+
+@media screen and(max-width <= 767px) {
+    .cards-container{
+        flex-direction:column;
+    }
+    
+}
